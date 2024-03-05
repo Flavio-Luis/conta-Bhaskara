@@ -8,9 +8,11 @@ while condicao:
 
     try:
         a = float(input("Coeficiente 'A': "))
-        if a == 0:
+        
+        while a == 0:
             print("A variavel A, não pode receber o valor igual a zero")
             a = float(input("Coeficiente 'A': "))
+            
         b = float(input("Coeficiente 'B': "))
         c = float(input("Coeficiente 'C': "))
     except:
